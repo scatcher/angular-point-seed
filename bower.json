@@ -1,0 +1,56 @@
+{
+  "name": "angular-point-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scatcher/angular-point-seed",
+  "authors": [
+    "Scott Hatcher <scott@hatcher.solutions>"
+  ],
+  "description": "A directive built to simplify angular-point form controls.",
+  "main": "dist/apInputControl.min.js",
+  "dependencies": {
+      "angular": "^1.2.23",
+      "angular-animate": "^1.2.23",
+      "angular-sanitize": "^1.2.23",
+      "angular-touch": "^1.2.23",
+      "angular-ui-select": "^0.7.0",
+      "angular-spinner": "^0.5",
+      "angular-ui-date": "^0.0.3",
+      "angular-ui-router": "^0.2.10",
+      "angular-ui-sortable": "^0.12.8",
+      "angular-ui-utils": "^0.1.1",
+      "angular-loading-bar": "~0.6.0",
+      "bootstrap": "^3.2.0",
+      "font-awesome": "^4.1.0",
+      "jquery": "1.11.1",
+      "jquery-ui": "1.11.0",
+      "ng-table": "0.3.2",
+      "angular-bootstrap": "^0.11.2",
+      "moment": "^2.8.3",
+      "angular-point": "master",
+      "angular-point-modal": "master",
+      "angular-point-form-control": "master",
+      "angular-point-group-manager": "master",
+      "angular-point-styles": "https://github.com/scatcher/angular-point-styles.git#master",
+      "angular-point-offline-generator": "https://github.com/scatcher/angular-point-offline-generator.git#master",
+      "angular-point-sync": "https://github.com/scatcher/angular-point-sync.git#master",
+      "angular-google-chart": "git://github.com/scatcher/angular-google-chart.git#master",
+      "angular-point-ie-safe": "https://github.com/scatcher/angular-point-ie-safe.git#master"
+  },
+  "devDependencies": {
+    "angular-sanitize": "~1.2",
+    "angular-mocks": "~1.2",
+    "angular-point-seed": "latest",
+    "angular-point-ie-safe": "https://github.com/scatcher/angular-point-ie-safe.git#master"
+  },
+  "keywords": [
+    "angular-point"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
